@@ -1,0 +1,93 @@
+
+body {
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fit=crop&w=1950&q=80") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20232a;
+  backdrop-filter: blur(8px);
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* color: #333; */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+}
+
+
+
+.welcome-text {
+  text-align: center;
+  padding: 80px 20px 40px;
+  color: #333;
+}
+
+.welcome-text h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.welcome-text p {
+  font-size: 18px;
+  color: #555;
+}
+
+
+
+/* .card {
+  background-color: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  color: #20232a;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #444;
+  font-size: 1rem;
+} */

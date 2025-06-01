@@ -1,0 +1,158 @@
+.home {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .hero {
+    background: linear-gradient(135deg, #f3f4f6, #ffffff);
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #555;
+  }
+  .hero-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .hero-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .categories {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .category-list span {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 20px;
+    background-color: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .category-list span:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+ 
+  .featured-posts {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+
+
+  .posts-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+  }
+
+
+  .post-card {
+    
+    width: calc(33.33% - 20px);
+
+    box-sizing: border-box;
+    background-color: #fff;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+
+
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .post-card:hover {
+    transform: translateY(-5px);
+  }
+  .post-card img {
+    width: 100%;
+
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    height: 200px;
+    object-fit: cover;
+  }
+  .post-card h3 {
+
+
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+
+    padding: 15px 15px 0;
+  }
+  .post-card p {
+
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+
+
+    padding: 0 15px 15px;
+    color: #555;
+  }
+  .read-more {
+    margin: 10px 15px 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .read-more:hover {
+   
+    background-color: #45a049;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .post-card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .post-card {
+      width: 100%; 
+    }
+  }
+
+
+
+
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 40px;
+  }
+  
